@@ -1,0 +1,13 @@
+Git is the industry-standard version control system for web developers.
+
+Use Git commands to help keep track of changes made to a project:
+- git init creates a new Git repository.
+- git status inspects the contents of the working directory and staging area.
+- git add <filename> adds files from the working directory to the staging area.
+- git add . adds all files from the working directory to the staging area.
+- git commit -m <message> permanently stores file changes from the staging area in the repository.
+
+GitHub is a service for hosting remote repositories on the web.
+- git remote add origin <url> specifies the remote repository using Git
+- git push -u origin master pushes the changes to the master branch on the remote repository, linking the local repository to the remote repository.
+- git push origin master pushes the changes to the master branch on the remote repository, given that the local repository and the remote repository are already linked.
